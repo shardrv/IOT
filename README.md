@@ -52,3 +52,14 @@ Tutorial to add device:
 
 https://docs.microsoft.com/en-us/azure/iot-central/tutorial-add-device
 
+
+
+Server Authentication details:
+
+https://docs.aws.amazon.com/iot/latest/developerguide/managing-device-certs.html#server-authentication
+
+
+Steps for AWS setup:
+
+https://circuitdigest.com/tutorial/getting-started-with-amazon-aws-for-iot-projects
+
