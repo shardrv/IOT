@@ -63,3 +63,16 @@ Steps for AWS setup:
 
 https://circuitdigest.com/tutorial/getting-started-with-amazon-aws-for-iot-projects
 
+
+**PROJECT DESCRIPTION**
+
+Industry 4.0 and smart industrial automation requires data anaysis of the manufacturing shop floor. Sensors at the plant throw out a lot of information which can be collected and analysed using data analysis techniques used in controls and data science. Using this data studies, two major things are acomplished. Firstly, optimization of current processes minimizing wastage and increasing overall efficiency. Secondly, an implementation of a connected enterprise is created which supports collaboration of intelligent devices to achieve specialised tasks.
+
+**CONNECTING SENSOR DEVICE TO IOT**
+
+The sensors present can be used for gathering information on the plant floor. Packets of data in the form of CayenneLPP are sent to IOT network device which in turn provides a gateway to the payload to be sent onto the internet through WiFi. Sensors use LORAWAN server to send the data to the ThingsNetwork saving the encoded packet of data.
+
+	1. 
+
+
+MQTT - Uses publisher subscriber model for information exchange.
