@@ -5,6 +5,7 @@ import time
 import os
 
 from azure.eventhub import EventHubClient, Sender, EventData
+from dotenv import load_dotenv
 
 logger = logging.getLogger("azure")
 
@@ -12,10 +13,11 @@ logger = logging.getLogger("azure")
 # "amqps://<URL-encoded-SAS-policy>:<URL-encoded-SAS-key>@<namespace>.servicebus.windows.net/eventhub"
 # "amqps://<namespace>.servicebus.windows.net/<eventhub>"
 # SAS policy and key are not required if they are encoded in the URL
+load_dotenv()
 
-ADDRESS = "amqps://<namespace>.servicebus.windows.net/<eventhub>"
-USER = "<AccessKeyName>"
-KEY = "<primary key value>"
+ADDRESS = os.environ.get("ADDRESS")
+USER = os.environ.get("USER")
+KEY = os.environ.get("ACCESS_KEY")
 
 try:
     if not ADDRESS:
